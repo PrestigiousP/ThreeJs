@@ -1,0 +1,17 @@
+<p>
+  <mat-toolbar class="menu-bar">
+    <img src="assets/logo_mini2.png" alt="Logo">
+    <span routerLink="" routerLinkActive="active" class="nav-button">PB Project</span>
+    <button mat-button routerLink="/about-me" routerLinkActive="active"
+            class="nav-button right-element" aria-label="About icon">About this project</button>
+    <a mat-button routerLink="/contact" routerLinkActive="active"
+            class="nav-button right-element" aria-label="Contact icon">Contact</a>
+    <button mat-icon-button routerLink="/share" routerLinkActive="active"
+            class="nav-button right-element" aria-label="Share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+</p>
+
+<router-outlet></router-outlet>
+<!--<app-main></app-main>-->

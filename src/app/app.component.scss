@@ -1,0 +1,66 @@
+.nav-button{
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.menu-bar{
+  background-color: #e91e63;
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+}
+.body{
+  background-color: #303030;
+}
+img{
+  position: absolute;
+  left: 10px;
+  margin-top: -5px;
+}
+.menu-bar>span{
+  position: absolute;
+  left: 0;
+  margin-left: 100px;
+}
+.menu-bar>span:hover{
+  cursor: pointer;
+}
+section {
+  display: table;
+}
+.right-element{
+  //border: 1px solid black;
+  position: relative;
+  right: 0;
+  margin-right: 15px;
+}
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+.example-button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+.body{
+  background-color: #303030;
+}
