@@ -11,16 +11,21 @@ section{
   margin-top: -150px;
 }
 footer{
-  border: 1px solid white;
+  // border: 1px solid white;
   padding: 1%;
+  background-color: #505050;
+}
+
+footer>h2{
+  margin-left: 4%;
 }
 footer>div{
   // padding: 1%;
 }
-footer>img{
-  width: 30px;
-  height: 15%;
+.icon-space{
+  margin-left: 1%;
 }
+
 .center{
   background-color: #404040;
 
