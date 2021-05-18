@@ -1,1 +1,67 @@
-<p>contact works!</p>
+<div class="container">
+
+  <div>
+    <img id="background-image" src="assets/images%20/triangles.jpg" alt="background image">
+    <a
+      href="https://unsplash.com/photos/0aWZdK8nK2I?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">
+      photo by Ash Edmonds
+    </a>
+
+    <div
+      [@contactAnimation]="isStarted ? 'start' : 'end'" >
+      <div class="contact">
+        <mat-card-title>Contact Me</mat-card-title>
+        <form class="test" (ngSubmit)="onSubmit()" [formGroup]="form" novalidate>
+          <mat-card>
+            <mat-card-content>
+              <div class="row">
+                <div class="col">
+                  <mat-form-field appearance="fill" class="full-width">
+                    <mat-label>First Name</mat-label>
+                    <input formControlName="firstName" matInput>
+                  </mat-form-field>
+                </div>
+                <div id="lastName" class="col">
+                  <mat-form-field appearance="fill" class="full-width">
+                    <mat-label>Last Name</mat-label>
+                    <input formControlName="lastName" matInput>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div class="row">
+                <mat-form-field appearance="fill" class="full-width">
+                  <mat-label>Email</mat-label>
+                  <input formControlName="email" matInput>
+                </mat-form-field>
+              </div>
+              <div class="row">
+                <mat-form-field appearance="fill" class="full-width">
+                  <mat-label>Message</mat-label>
+                  <textarea formControlName="message" matInput></textarea>
+                </mat-form-field>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        </form>
+      </div>
+    </div>
+    </div>
+
+
+
+  <footer>
+    <h2>Follow me</h2>
+    <div class="f-center">
+      <a href="https://www.google.com">
+        <img src="assets/images%20/icon-fb2.png" alt="Facebook icon">
+      </a>
+      <a href="https://www.google.com">
+        <img class="icon-space" src="assets/images%20/instagram-icon.png" alt="Instagram icon">
+      </a>
+      <a href="https://www.google.com">
+        <img class="icon-space" src="assets/images%20/github-icon.png" alt="Github icon">
+      </a>
+    </div>
+  </footer>
+</div>
+

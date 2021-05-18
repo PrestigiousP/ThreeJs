@@ -1,0 +1,67 @@
+a{
+  color: white;
+}
+footer{
+  // border: 1px solid white;
+  padding: 1%;
+  background-color: #505050;
+  margin-bottom: -33%;
+}
+#background-image{
+  // border: 1px solid white;
+  margin-top: -1%;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.contact{
+  // position: absolute;
+  margin-top: -40%;
+}
+.mat-card{
+  // background-color: deeppink;
+}
+.mat-card-content{
+}
+footer>h2{
+  margin-left: 4%;
+}
+footer>div{
+  // padding: 1%;
+}
+#Group_1{
+  // transform: rotate(45deg);
+
+}
+#Rectangle_2:hover{
+  // transform: rotate(180deg);
+  // translate(234 117)
+  transition: all 1s ease;
+  transform: rotate(180deg);
+  transform-origin: center;
+}
+.contact{
+  width: 70%;
+  margin-left: 12%;
+}
+.full-width{
+  width: 100%;
+}
+mat-card-title{
+  text-align: center;
+  font-size: 50px;
+  margin: 5%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+textarea{
+  height: 100px;
+}
+.col {
+  flex: 1;
+}
+#lastName{
+  margin-left: 5%;
+}
