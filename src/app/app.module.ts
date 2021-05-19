@@ -10,7 +10,6 @@ import {MatIconModule} from '@angular/material/icon';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { ShareComponent } from './share/share.component';
 import { MainComponent } from './main/main.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
@@ -23,7 +22,6 @@ import {MatInputModule} from '@angular/material/input';
     AboutMeComponent,
     ContactComponent,
     PageNotFoundComponent,
-    ShareComponent,
     MainComponent,
   ],
   imports: [

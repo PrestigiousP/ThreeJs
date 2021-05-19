@@ -8,7 +8,7 @@
     </a>
 
     <div
-      [@contactAnimation]="isStarted ? 'start' : 'end'" >
+      [@contactAnimation]="isStarted ? 'start' : 'end'">
       <div class="contact">
         <mat-card-title>Contact Me</mat-card-title>
         <form class="test" (ngSubmit)="onSubmit()" [formGroup]="form" novalidate>
@@ -45,23 +45,18 @@
         </form>
       </div>
     </div>
-    </div>
-
-
+  </div>
 
   <footer>
-    <h2>Follow me</h2>
-    <div class="f-center">
-      <a href="https://www.google.com">
-        <img src="assets/images%20/icon-fb2.png" alt="Facebook icon">
-      </a>
-      <a href="https://www.google.com">
-        <img class="icon-space" src="assets/images%20/instagram-icon.png" alt="Instagram icon">
-      </a>
-      <a href="https://www.google.com">
-        <img class="icon-space" src="assets/images%20/github-icon.png" alt="Github icon">
-      </a>
-    </div>
+    <h2>Follow me on Github !</h2>
+    <a href="https://github.com/PrestigiousP">
+      <img class="icon-space" src="assets/images%20/GitHub-Mark-Light-32px.png" alt="Github icon">
+    </a>
+    <h2>Share to help me</h2>
+    <iframe
+      src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Flocalhost%3A4200&layout=button&size=large&width=77&height=28&appId"
+      width="90" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
   </footer>
 </div>
 

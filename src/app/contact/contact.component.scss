@@ -2,7 +2,6 @@ a{
   color: white;
 }
 footer{
-  // border: 1px solid white;
   padding: 1%;
   background-color: #505050;
   margin-bottom: -33%;
@@ -15,27 +14,18 @@ footer{
   object-fit: cover;
 }
 .contact{
-  // position: absolute;
   margin-top: -40%;
 }
-.mat-card{
-  // background-color: deeppink;
-}
-.mat-card-content{
-}
-footer>h2{
-  margin-left: 4%;
-}
-footer>div{
-  // padding: 1%;
+footer{
+  padding-top: 1%;
+  background-color: #505050;
+  margin-top: 10%;
+  padding-left: 4%;
 }
 #Group_1{
-  // transform: rotate(45deg);
 
 }
 #Rectangle_2:hover{
-  // transform: rotate(180deg);
-  // translate(234 117)
   transition: all 1s ease;
   transform: rotate(180deg);
   transform-origin: center;

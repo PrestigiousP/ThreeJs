@@ -12,6 +12,13 @@
 .body{
   background-color: #303030;
 }
+.fb-share-button{
+  height: 40px;
+  background-color: #e91e63;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+}
 img{
   position: absolute;
   left: 10px;
@@ -27,6 +34,9 @@ img{
 }
 section {
   display: table;
+}
+#share-icon{
+  color: white;
 }
 .right-element{
   //border: 1px solid black;
